@@ -1,0 +1,67 @@
+//program to demonstrate single inhetance
+#include<iostream.h>
+#include<conio.h>
+class student
+{
+	private:
+		int rollno;
+		char name[20];
+	public:
+		void getinfo();
+		void shout();
+
+};
+class mark:public student
+{
+	private:
+		int m1,m2,m3;
+	public:
+		void getdata();
+		void display();
+
+};
+void student::getinfo()
+{
+	cout<<"enter student roll number .....:-"<<endl;
+	cin>>rollno;
+	cout<<"enter student name....:-"<<endl;
+	cin>>name;
+}
+void student::getdata()
+{
+
+	cout<<"enter marks of three subject....:-"<<endl;
+	cout<<"enter marks of first subject....:-"<<endl;
+	cin>>m1;
+
+	cout<<"enter marks of second subject...:-"<<endl;
+	cin>>m2;
+
+	cout<<"enter marks of third subject....:-"<<endl;
+	cin>>m3
+{
+void student::show()
+{
+	cout<<"\nstudent roll no is ...:-"<<rollno<<endl;
+	cout<<"\nstudent nane is ...:-"<<name<<endl;
+
+}
+void marks ::display{}
+{
+
+	cout<<" the marks three subject....:-"<<end;
+	cout<<"the first subject marks is ....:-"<<m1<<endl;
+	cout<<"the second subject marks is....:-"<<m2<<endl;
+	cout<<"the third subject marks is ....:-"<<m3<<endl;
+
+ }
+ void main()
+ {
+	 clrscr();
+	 marks m;
+	 m.getinfo;
+	 m.getdata;
+	 m.show;
+	 m.display;
+ getch();
+ }
